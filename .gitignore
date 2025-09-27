@@ -1,0 +1,42 @@
+# .gitignore for EduBuddyBridge Azure Integration
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Azure CLI cache
+.azure/
+
+# Node modules (if using Node.js)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.min.js
+*.min.css
+
+# Test coverage
+coverage/
